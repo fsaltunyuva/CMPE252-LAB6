@@ -4,16 +4,26 @@ Part 1 (60 points)
 In this part, you are asked to complete shape3d_part1.c program (available in Moodle) which keeps the 
 list of shapes in a text file. Please check the content of the example shapes3d_1.txt below.
 
+-
 Content of 3dshapes1.txt
+
 cube 4 -5 3 5
+
 square_prism -3 4 4 5 2
+
 sphere 3 -2 1 3
+
 square_prism 3 1 -2 1 2
+
 cube -4 -1 4 3
+-
 
 Each line contains a shape data. The data format for each shape type is as follows:
+
 cube <center x coordinate> <center y coordinate> <center z coordinate> <side-length>
+  
 square_prism <center x coordinate> <center y coordinate> <center z coordinate> <base-side-length> < height>. 
+  
 sphere <center-x-coordinate> <center-y-coordinate> <center z coordinate> <radius>
   
 Follow the below steps in your program:
@@ -34,6 +44,7 @@ Create enumerated type class_t with constants CUBE, SQUARE_PRISM, SPHERE.
 Create shape_t structure with type (class_t) and shape (shape3d_data_t). type field determines which member of 3d shape contains a value. If type is SPHERE, shape.sphere contains a value. If type is SQUARE_PRISM, shape.square_prism contains a value. If type is CUBE, shape.cube contains a value.
   
 Write 3 functions: 
+  
 • int scanShape(FILE *filep, shape_t *objp);
 scanShape function gets a pointer to FILE and a pointer to shape3d_t. Reads shape data from the file, and fills shape_t pointed to, by objp. Returns 1 if the read operation is successful; otherwise, returns 0.
   
@@ -49,15 +60,25 @@ Sphere: <center-x-coordinate center-y-coordinate center-z-coordinate> <radius>
 • main function is already provided to you (see shape3d_part1.c) and it is supposed to remain as it is (you should not change it). In main function, an array of shape_t is declared, loadShapes function is called, and all shapes are printed.
   
 Example Run:
+  
 Enter the file name to read: shapes3d_1.txt
+  
 Opening shapes3d_1.txt
+  
 Loading complete
+  
 Closing shapes3d_1.txt
+  
 Shapes 3D:
+  
 Cube: <4.00 -5.00 3.00> <5.00>
+  
 Square_prism: <-3.00 4.00 4.00> <5.00 2.00>
+  
 Sphere: <3.00 -2.00 1.00> <3.00>
+  
 Square_prism: <3.00 1.00 -2.00> <1.00 2.00>
+  
 Cube: <-4.00 -1.00 4.00> <3.00>
   
   
