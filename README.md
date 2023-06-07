@@ -20,11 +20,11 @@ cube -4 -1 4 3
 
 Each line contains a shape data. The data format for each shape type is as follows:
 
-cube <center x coordinate> <center y coordinate> <center z coordinate> <side-length>
+cube \<center x coordinate\> \<center y coordinate\> \<center z coordinate\> \<side-length\>
   
-square_prism <center x coordinate> <center y coordinate> <center z coordinate> <base-side-length> < height>. 
+square_prism \<center x coordinate\> \<center y coordinate\> \<center z coordinate\> \<base-side-length\> \<height\>. 
   
-sphere <center-x-coordinate> <center-y-coordinate> <center z coordinate> <radius>
+sphere \<center-x-coordinate\> \<center-y-coordinate\> \<center z coordinate\> \<radius\>
   
 Follow the below steps in your program:
   
@@ -53,9 +53,9 @@ loadShapes function gets an array of shape_t. Opens the text file with the enter
   
 • void printShape(const shape_t *objp);
 printShape function gets a pointer to a constant shape_t. Prints shape information. The format for each shape type is as follows (also see example run). While printing double values, use %.2lf as the format specifier.
-Cube: <center-x-coordinate center-y-coordinate center-z-coordinate> <side-length>
-Square_prism: <center-x-coordinate center-y-coordinate center-z-coordinate> <base-side-length height>
-Sphere: <center-x-coordinate center-y-coordinate center-z-coordinate> <radius>
+Cube: \<center-x-coordinate center-y-coordinate center-z-coordinate\> \<side-length\>
+Square_prism: \<center-x-coordinate center-y-coordinate center-z-coordinate\> \<base-side-length height\>
+Sphere: \<center-x-coordinate center-y-coordinate center-z-coordinate\> \<radius\>
   
 • main function is already provided to you (see shape3d_part1.c) and it is supposed to remain as it is (you should not change it). In main function, an array of shape_t is declared, loadShapes function is called, and all shapes are printed.
   
@@ -71,15 +71,15 @@ Closing shapes3d_1.txt
   
 Shapes 3D:
   
-Cube: <4.00 -5.00 3.00> <5.00>
+Cube: \<4.00 -5.00 3.00\> \<5.00\>
   
-Square_prism: <-3.00 4.00 4.00> <5.00 2.00>
+Square_prism: \<-3.00 4.00 4.00\> \<5.00 2.00\>
   
-Sphere: <3.00 -2.00 1.00> <3.00>
+Sphere: \<3.00 -2.00 1.00\> \<3.00\>
   
-Square_prism: <3.00 1.00 -2.00> <1.00 2.00>
+Square_prism: \<3.00 1.00 -2.00\> \<1.00 2.00\>
   
-Cube: <-4.00 -1.00 4.00> <3.00>
+Cube: \<-4.00 -1.00 4.00\> \<3.00\>
   
   
 Part 2 (40 points)
@@ -110,20 +110,20 @@ Closing shapes3d_1.txt
 
 Shapes 3D:
   
-Cube: <4.00 -5.00 3.00> <5.00>
+Cube: \<4.00 -5.00 3.00\> \<5.00\>
   
-Square_prism: <-3.00 4.00 4.00> <5.00 2.00>
+Square_prism: \<-3.00 4.00 4.00\> \<5.00 2.00\>
   
-Sphere: <3.00 -2.00 1.00> <3.00>
+Sphere: \<3.00 -2.00 1.00\> \<3.00\>
   
-Square_prism: <3.00 1.00 -2.00> <1.00 2.00>
+Square_prism: \<3.00 1.00 -2.00\> \<1.00 2.00\>
   
-Cube: <-4.00 -1.00 4.00> <3.00>
+Cube: \<-4.00 -1.00 4.00\> \<3.00\>
   
 Enter x,y and z coordinate of the start point of line: 3 -4 2
   
 Enter x,y and z coordinate of the end point: 3 -2 4
   
-The Line from <3.00 -4.00 2.00> to <3.00 -2.00 4.00> is inside the following shapes:
+The Line from \<3.00 -4.00 2.00\> to \<3.00 -2.00 4.00\> is inside the following shapes:
   
-Sphere: <3.00 -2.00 1.00> <3.00
+Sphere: |<3.00 -2.00 1.00|> \<3.00\>
