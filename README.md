@@ -4,7 +4,7 @@ Part 1 (60 points)
 In this part, you are asked to complete shape3d_part1.c program (available in Moodle) which keeps the 
 list of shapes in a text file. Please check the content of the example shapes3d_1.txt below.
 
--
+
 Content of 3dshapes1.txt
 
 cube 4 -5 3 5
@@ -16,7 +16,7 @@ sphere 3 -2 1 3
 square_prism 3 1 -2 1 2
 
 cube -4 -1 4 3
--
+
 
 Each line contains a shape data. The data format for each shape type is as follows:
 
