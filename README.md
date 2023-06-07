@@ -80,16 +80,29 @@ Z_min_of_square_prism/cube ≤ Start/End Points Z ≤ Z_max_of_square_prism/cube
   
 Example Run:
 Enter the file name to read: shapes3d_1.txt
+
 Opening shapes3d_1.txt
+ 
 Loading complete
+  
 Closing shapes3d_1.txt
+
 Shapes 3D:
+  
 Cube: <4.00 -5.00 3.00> <5.00>
+  
 Square_prism: <-3.00 4.00 4.00> <5.00 2.00>
+  
 Sphere: <3.00 -2.00 1.00> <3.00>
+  
 Square_prism: <3.00 1.00 -2.00> <1.00 2.00>
+  
 Cube: <-4.00 -1.00 4.00> <3.00>
+  
 Enter x,y and z coordinate of the start point of line: 3 -4 2
+  
 Enter x,y and z coordinate of the end point: 3 -2 4
+  
 The Line from <3.00 -4.00 2.00> to <3.00 -2.00 4.00> is inside the following shapes:
+  
 Sphere: <3.00 -2.00 1.00> <3.00
