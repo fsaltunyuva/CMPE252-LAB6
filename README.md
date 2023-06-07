@@ -1,4 +1,4 @@
-# CMPE252-LAB6 (C Programming)
+# CMPE252-LAB6 (C Programming - Lab 6)
 
 Part 1 (60 points)
 In this part, you are asked to complete shape3d_part1.c program (available in Moodle) which keeps the 
