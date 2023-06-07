@@ -31,7 +31,7 @@ typedef struct {
 typedef union {
     cube_t cube;
     square_prism_t square_prism;
-    sphere_t sphere; //PDF'Te buraası da cube yazıyor
+    sphere_t sphere;
 } shape3d_data_t;
 
 typedef enum {
