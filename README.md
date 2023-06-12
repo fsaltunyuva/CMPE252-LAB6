@@ -59,27 +59,29 @@ Sphere: \<center-x-coordinate center-y-coordinate center-z-coordinate\> \<radius
   
 • main function is already provided to you (see shape3d_part1.c) and it is supposed to remain as it is (you should not change it). In main function, an array of shape_t is declared, loadShapes function is called, and all shapes are printed.
   
-Example Run:
+**Example Run:**
   
-Enter the file name to read: shapes3d_1.txt
+Enter the file name to read: 
+
+*shapes3d_1.txt*
   
-Opening shapes3d_1.txt
+> Opening shapes3d_1.txt
   
-Loading complete
+> Loading complete
   
-Closing shapes3d_1.txt
+> Closing shapes3d_1.txt
   
-Shapes 3D:
+> Shapes 3D:
   
-Cube: \<4.00 -5.00 3.00\> \<5.00\>
+> Cube: \<4.00 -5.00 3.00\> \<5.00\>
   
-Square_prism: \<-3.00 4.00 4.00\> \<5.00 2.00\>
+> Square_prism: \<-3.00 4.00 4.00\> \<5.00 2.00\>
   
-Sphere: \<3.00 -2.00 1.00\> \<3.00\>
+> Sphere: \<3.00 -2.00 1.00\> \<3.00\>
   
-Square_prism: \<3.00 1.00 -2.00\> \<1.00 2.00\>
+> Square_prism: \<3.00 1.00 -2.00\> \<1.00 2.00\>
   
-Cube: \<-4.00 -1.00 4.00\> \<3.00\>
+> Cube: \<-4.00 -1.00 4.00\> \<3.00\>
   
   
 Part 2 (40 points)
@@ -99,31 +101,38 @@ Z_min_of_square_prism/cube ≤ Start/End Points Z ≤ Z_max_of_square_prism/cube
   
 • main function is already provided to you (take main function from shape3d_part2.c) and it is supposed to remain as it is (you should not change it). In main function, an array of shape_t is declared, loadShapes function is called, all shapes are printed, and finally, only the shapes which contain a user entered point are printed.
   
-Example Run:
-Enter the file name to read: shapes3d_1.txt
+**Example Run:**
 
-Opening shapes3d_1.txt
+> Enter the file name to read: 
+
+> *shapes3d_1.txt*
+
+> Opening shapes3d_1.txt
  
-Loading complete
+> Loading complete
   
-Closing shapes3d_1.txt
+> Closing shapes3d_1.txt
 
-Shapes 3D:
+> Shapes 3D:
   
-Cube: \<4.00 -5.00 3.00\> \<5.00\>
+> Cube: \<4.00 -5.00 3.00\> \<5.00\>
   
-Square_prism: \<-3.00 4.00 4.00\> \<5.00 2.00\>
+> Square_prism: \<-3.00 4.00 4.00\> \<5.00 2.00\>
   
-Sphere: \<3.00 -2.00 1.00\> \<3.00\>
+> Sphere: \<3.00 -2.00 1.00\> \<3.00\>
   
-Square_prism: \<3.00 1.00 -2.00\> \<1.00 2.00\>
+> Square_prism: \<3.00 1.00 -2.00\> \<1.00 2.00\>
   
-Cube: \<-4.00 -1.00 4.00\> \<3.00\>
+> Cube: \<-4.00 -1.00 4.00\> \<3.00\>
   
-Enter x,y and z coordinate of the start point of line: 3 -4 2
+> Enter x,y and z coordinate of the start point of line:
+
+> *3 -4 2*
   
-Enter x,y and z coordinate of the end point: 3 -2 4
+> Enter x,y and z coordinate of the end point:
+
+> *3 -2 4*
   
-The Line from \<3.00 -4.00 2.00\> to \<3.00 -2.00 4.00\> is inside the following shapes:
+> The Line from \<3.00 -4.00 2.00\> to \<3.00 -2.00 4.00\> is inside the following shapes:
   
-Sphere: |<3.00 -2.00 1.00|> \<3.00\>
+> Sphere: |<3.00 -2.00 1.00|> \<3.00\>
