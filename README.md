@@ -61,9 +61,9 @@ Sphere: \<center-x-coordinate center-y-coordinate center-z-coordinate\> \<radius
   
 **Example Run:**
   
-Enter the file name to read: 
+> Enter the file name to read: 
 
-*shapes3d_1.txt*
+> *shapes3d_1.txt*
   
 > Opening shapes3d_1.txt
   
